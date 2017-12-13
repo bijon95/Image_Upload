@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_item_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="info.bijon.image_upload.ItemView">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+    <WebView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:id="@+id/webView"/>
+
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvUsername" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPhone" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textColor="#10d14a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="SMS Body"
+        android:ems="10"
+        android:id="@+id/reviewET" />
+  <LinearLayout
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+    <Button
+        android:text="SMS"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/smsBtn" />
+     <Button
+         android:layout_weight="1"
+        android:text="Call"
+        android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/callBtn" />
+            </LinearLayout>
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="@drawable/map"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/button4"
+        />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

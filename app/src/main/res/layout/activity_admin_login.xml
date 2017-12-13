@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/bgcolor"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    tools:context="info.bijon.image_upload.MainActivity"
+    android:weightSum="1">
+
+
+
+    <EditText
+        android:textSize="20dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:drawablePadding="55dp"
+        android:textAlignment="center"
+        android:hint="User ID"
+        android:layout_width="250dp"
+        android:background="@drawable/buttonshape"
+        android:layout_marginTop="70dp"
+        android:textColorHint="#000000"
+        android:id="@+id/editText4" />
+
+    <EditText
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonshape"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textAlignment="center"
+        android:textColorHint="#000000"
+        android:ems="10"
+        android:id="@+id/editText5" />
+
+    <Button
+        android:layout_marginTop="20sp"
+        android:text="Login"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/btnbg"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/button5" />
+
+
+</LinearLayout>

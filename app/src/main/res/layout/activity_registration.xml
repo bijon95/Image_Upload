@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/bgcolor"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="info.bijon.image_upload.MainActivity"
+    android:weightSum="1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+    <EditText
+        android:textSize="20dp"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:hint="Name"
+        android:layout_width="match_parent"
+        android:background="@drawable/buttonshape"
+        android:textColorHint="@color/texthintColor"
+        android:id="@+id/etName" />
+
+    <EditText
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonshape"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:hint="UserID"
+        android:textAlignment="center"
+        android:textColorHint="@color/texthintColor"
+        android:ems="10"
+        android:id="@+id/etUserid" />
+
+
+    <EditText
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonshape"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textAlignment="center"
+        android:textColorHint="@color/texthintColor"
+        android:ems="10"
+        android:id="@+id/etpass1" />
+
+    <EditText
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonshape"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:hint="re-Password"
+        android:textAlignment="center"
+        android:textColorHint="@color/texthintColor"
+        android:ems="10"
+        android:id="@+id/etpass2" />
+
+    <EditText
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonshape"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="phone"
+        android:hint="Phone"
+        android:textAlignment="center"
+        android:textColorHint="@color/texthintColor"
+        android:ems="10"
+        android:id="@+id/etPhone" />
+
+    <EditText
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonshape"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:hint="Word No"
+        android:textAlignment="center"
+        android:textColorHint="@color/texthintColor"
+        android:ems="10"
+        android:id="@+id/etWordno" />
+
+    <EditText
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonshape"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:hint="Spot No"
+        android:textAlignment="center"
+        android:textColorHint="@color/texthintColor"
+        android:ems="10"
+        android:id="@+id/etZone" />
+
+    <EditText
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonshape"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:hint="Road NO"
+        android:textAlignment="center"
+        android:textColorHint="@color/texthintColor"
+        android:ems="10"
+        android:id="@+id/etRoad" />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/btnbg"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/submitBtn" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

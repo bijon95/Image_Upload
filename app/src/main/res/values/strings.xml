@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="btnTakePicture">Capture Image</string>
+    <string name="btnRecordVideo">Record Video</string>
+    <string name="or">(or)</string>
+    <string name="btnUploadToServer">Upload to Server</string>
+    <string name="choose">Choose</string>
+    <string-array name="dataitem">
+        <item>Clear</item>
+        <item>Unclear</item>
+    </string-array>
+</resources>
